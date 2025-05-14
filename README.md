@@ -1,4 +1,16 @@
 # k8s-manifests
 
+# Kubernetes Ingress Controller Example (Minikube + NGINX)
 
-![image](https://github.com/user-attachments/assets/db7e0454-7871-41d6-b7ae-b1caee0fcfed)
+This project demonstrates how to set up an NGINX Ingress Controller in a Minikube Kubernetes cluster and expose multiple services (backend and frontend) using clean URLs.
+
+---
+
+## 📦 Project Structure
+
+```bash
+.
+├── backend.yml          # NGINX backend deployment + service
+├── frontend.yml         # Apache frontend deployment + service
+├── ingress.yml          # Ingress resource to route traffic
+└── README.md

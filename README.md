@@ -2,7 +2,7 @@
 
 # Kubernetes Ingress Controller Example (Minikube + NGINX)
 
-This project demonstrates how to set up an NGINX Ingress Controller in a cloud-native Kubernetes cluster and expose multiple services (backend and frontend) using clean URLs.
+This project demonstrates how to set up an **NGINX Ingress Controller** in a cloud-native Kubernetes cluster and expose multiple services (backend and frontend) using clean URLs.
 
 ---
 
